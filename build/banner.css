@@ -1,0 +1,159 @@
+.bn{
+    background-color: #E7D4B5;
+    min-width: 320px;
+    min-height: 500px;
+    flex-direction: column;
+    background-image: url("https://www.transparenttextures.com/patterns/vintage-speckles.png");
+
+}
+.bnImg{
+    width: 300px;
+    height: 400px;
+    background-color: brown;
+}
+
+.banner{
+    width: 300px;
+    height: 400px;
+}
+.bnTitle{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+.bnText{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.foodImage{
+    background-color: #E7D4B5;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+
+.food2{
+    min-width: 300px;
+    padding: 10px
+  }
+.fd2{
+    min-width: 300px;
+    height: 200px;
+    max-width: 500px;
+}
+.fdTitle{
+    font-size: 30px;
+    padding: 20px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+.fdText{
+   padding: 20px;
+}
+
+.about{
+    background-color: #E7D4B5;
+    min-width: 320px;
+    min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("https://www.transparenttextures.com/patterns/vintage-speckles.png");
+}
+.aboutTitle{
+    
+}
+.aboutText{
+    min-width: 300px;
+    max-width: 450px;
+    padding: 10px;
+    text-align: center;
+    gap: 20px;
+}
+
+@media (min-width:600px){
+    .bn{
+        flex-direction: row;
+         margin-top: 100px;
+    }
+    .bnImg{
+        position: relative;
+        bottom: 100px;
+    }
+    .fdRight{
+      display: flex;
+      justify-content: right;
+    }
+    .fd3{
+     margin-right: 20px;
+    }
+}
+@media (min-width:630px){
+    .bn{
+        gap: 30px;
+    }
+}
+@media (min-width:660px){
+    .bn{
+        gap: 60px;
+    }
+}
+
+@media (min-width:760px){
+    .bn{
+        gap: 100px;
+    }
+    .fdText{
+        font-size: 17px;
+     }
+     .bnText{
+        font-size: 16px;
+     }
+     .aboutText{
+        font-size: 18px;
+    }
+}
+
+@media (min-width:900px){
+    .food2{
+        padding: 0px;
+    }
+    .fd2{
+        margin-left: 10px;
+    }
+   
+}
+
+@media (min-width:1300px){
+    .bnImg{
+        width: 400px;
+        height: 500px;
+    }
+    .bn{
+        min-height: 600px;
+    }
+    .banner{
+        width: 550px;
+    }
+    .aboutTitle{
+        font-size: 40px;
+    }
+    .aboutText{
+        font-size: 21px;
+    }
+    .about{
+        margin-bottom: 100px;
+        max-height: 520px;
+    }
+    .aboutText{
+        max-width: 600px;
+       line-height: 30px;
+    }
+    .fdText{
+        font-size: 20px;
+     }
+     .bnText{
+        font-size: 19px;
+     }
+}

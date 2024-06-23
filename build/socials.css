@@ -1,0 +1,118 @@
+.sc{
+    min-width:300px;
+    height: 750px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E7D4B5;
+}
+
+
+.scDiv{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.scSmall{
+    width: 145px;
+    height: 145px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.scBig{
+    width: 300px;
+    height: 200px;
+    background-color: azure;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.srcDivHide{
+    display: none;
+}
+.scImg{
+   height: 30px;
+   width: 30px;
+   margin: 7px;
+}
+
+.sc1{
+   order: 1;
+}
+.sc2{
+    order: 2;
+ }
+ .sc3{
+    order: 3;
+ }
+.sc-down-r{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.sc-down-l{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.sc-up-r{
+    display: flex;
+    justify-content: end;
+}
+
+@media (min-width:650px){
+    .sc{
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 730px;
+    }
+    .srcDivHide{
+        display: flex;
+    }
+}
+@media (min-width:940px){
+    .sc1{
+        order: 3;
+     }
+     .sc2{
+         order: 2;
+      }
+      .sc3{
+         order: 1;
+      }
+}
+
+@media (min-width:1000px){
+    .sc{
+        height: 600px;
+    }
+}
+@media (min-width:1500px){
+    .sc{
+        min-width:300px;
+        height: 550px;
+        margin-top: 100px;
+       margin-bottom:100px;
+        gap:10px;
+        background-color: #E7D4B5;
+    }
+    .scDiv{
+        width: 400px;
+        height: 505px;
+        gap:10px;
+    }
+    .scSmall{
+        width: 195px;
+        height: 195px;
+    }
+    .scBig{
+        width: 400px;
+        height: 300px;
+    }
+}

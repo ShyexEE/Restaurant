@@ -1,0 +1,157 @@
+.ft {
+  min-width: 320px;
+  min-height: 300px;
+  background-color: #b6c7aa;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+/* 
+position: relative;
+top:800px;
+*/
+
+.ftGoogleMaps {
+  height: 200px;
+  min-width: 312px;
+  display: flex;
+  justify-content: center;
+}
+.ftOpening {
+  width: 260px;
+  height: 250px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.ftContactUs {
+  width: 320px;
+  height: 130px;
+}
+.ftAddress {
+  min-height: 120px;
+  width: 260px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.ftTitles {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: start;
+}
+.ftDays {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  height: 25px;
+}
+.ftHours {
+  width: 90px;
+}
+.ftDaysDiv {
+  display: flex;
+  flex-direction: column;
+}
+.ftCopyRight {
+  width: 100%;
+  padding-bottom: 5px;
+  height: 20px;
+  text-align: center;
+}
+.ftContact {
+  padding-left: 20px;
+  padding-right: 10px;
+  height: 20px;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+/**/
+.ftIcons {
+  width: 100%;
+  height: 50px;
+  background-color: #bfcab7;
+  gap: 10px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.ftAC {
+  width: 320px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.ftWrapper {
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 400px) {
+  .ftAddress {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-height: 160px;
+  }
+}
+@media (min-width: 600px) {
+  .ftWrapper {
+    flex-direction: row;
+  }
+}
+@media (min-width: 640px) {
+  .ftGoogleMaps {
+    height: 130px;
+    width: 316px;
+  }
+}
+@media (min-width: 956px) {
+  .ftGoogleMaps {
+    height: 250px;
+    min-width: 300px;
+    max-width: 320px;
+  }
+  .ftGoogleMaps {
+    order: 3;
+  }
+  .ftAC {
+    order: 1;
+  }
+  .ftOpening {
+    order: 2;
+  }
+  .ftFollowus {
+    order: 4;
+  }
+  .ftFollowus {
+    justify-content: start;
+    align-self: start;
+  }
+  .ftCopyRight {
+    padding-top: 20px;
+  }
+}
+@media (min-width: 1700px) {
+  .ftAC {
+    flex-direction: row;
+    width: fit-content;
+  }
+  .ftAddress {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .ftFollowus {
+    justify-content: center;
+    align-self: center;
+  }
+}

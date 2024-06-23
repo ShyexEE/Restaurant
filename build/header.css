@@ -1,0 +1,66 @@
+/**HeaderOn HeaderOff =  under header animated bar   header-off header-on= header animation */
+.header-on{
+    min-width: 100%;
+    height: 60px;
+    z-index: 20;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #A0937D;
+    backdrop-filter: blur(4px);
+    /* ;
+    background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");*/
+}
+hamburger{
+  margin-left: auto
+}
+.headGap{
+    gap:20px
+}
+.pad-left-header-1{
+  padding-left: 5px;
+}
+.pad-right-header-1{
+   padding-right: 5px;
+}
+
+/*row*/
+.underHeaderDiv{
+   height: 100%;
+   min-width: 70px;
+   background-color: #A0937D;
+   flex-direction: column;
+   gap: 30px;
+   overflow: hidden;
+}
+.headerImg{
+   width: 60px;
+   height: 60px;
+   overflow: hidden;
+}
+.logo{
+  width: 60px;
+  height: 60px;
+  z-index: 20;
+  position: fixed;
+  left: 5px;
+}
+
+.header-hide{
+  visibility: hidden;
+}
+.header-displayOff{
+  display: none;
+}
+
+@media (min-width: 1920px){
+  .pad-right-header-1{
+      padding-right: 300px;
+  }
+  .pad-left-header-1{
+    padding-left: 300px;
+  }
+  .logo{
+    top: 21px;
+    left: 300px;
+  }
+}

@@ -1,0 +1,133 @@
+.bookingTrigger{
+    position: relative;
+    top: 10px;
+}
+
+.bookingDiv{
+    height: 430px;
+    width: 550px;
+    flex-direction: column;
+    gap:5px;
+    z-index: 15;
+    background-color: #B6C7AA;
+    padding-top: 20px;
+    border-radius: 25px;
+    background-image: url("https://www.transparenttextures.com/patterns/vintage-speckles.png");
+}
+
+
+.bodyBooking{
+    background-image: url('cssImages/bck.jpg');
+    background-repeat: no-repeat;
+}
+
+.bookingBlurDiv{
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    position: fixed;
+    backdrop-filter: blur(4px)
+}
+
+.input{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 30px;
+    text-align: start;
+    font-size: 16px;
+    text-transform:capitalize;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.email{
+    text-transform:unset;
+}
+
+.bookingText{
+ height: 58px;
+}
+.bookingButton{
+   margin-top: 20px;
+}
+
+input[type="date"]{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 30px;
+    text-align: start;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+input[type="time"]{
+    width: 350px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 30px;
+    text-align: start;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: url("cssImages/meal.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 34px;
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url("cssImages/calendar.png");
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-size: 34px;
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+/*
+input:focus[type="date"]{
+
+}
+*/
+@media (max-width:410px){
+    .bookingDiv{
+        height: 350px;
+        min-width: 300px;
+        max-width: 10px;
+    }
+    .input{
+        width: 240px;
+        height: 40px;
+        font-size: 14px;
+    }
+    input[type="date"]{
+        width: 240px;
+        height: 40px;
+        font-size: 14px;
+    }
+    input[type="time"]{
+        width: 240px;
+        height: 40px;
+        font-size: 14px;
+    }
+}
+@media (max-width:600px){
+    .bookingDiv{
+        margin: 10px;
+    }
+}
