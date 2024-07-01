@@ -79,6 +79,7 @@ input[type="time"]{
     font-weight: 400;
     font-style: normal;
 }
+
 input[type="time"]::-webkit-calendar-picker-indicator {
     background: url("cssImages/meal.png");
     background-repeat: no-repeat;

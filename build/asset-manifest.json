@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.440db595.css",
-    "main.js": "/static/js/main.4e35106c.js",
+    "main.js": "/static/js/main.56ad66dc.js",
     "static/media/grill.jpg": "/static/media/grill.290c8dd75681daaae928.jpg",
     "static/media/fries.jpg": "/static/media/fries.ceb86bc394e9d57a75b2.jpg",
     "static/media/foody.jpg": "/static/media/foody.d8daf0eea3b295fdf30c.jpg",
@@ -14,10 +14,10 @@
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
     "main.440db595.css.map": "/static/css/main.440db595.css.map",
-    "main.4e35106c.js.map": "/static/js/main.4e35106c.js.map"
+    "main.56ad66dc.js.map": "/static/js/main.56ad66dc.js.map"
   },
   "entrypoints": [
     "static/css/main.440db595.css",
-    "static/js/main.4e35106c.js"
+    "static/js/main.56ad66dc.js"
   ]
 }
